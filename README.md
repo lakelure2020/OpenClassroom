@@ -1,29 +1,44 @@
-Write README file in Git for the following project
+Analyze the sales of the company in order to target new areas of growth
 
-You have recently been hired by a bookstore chain, Captain Book. After opening quite a few brick-and-mortar stores on the West Coast, they finally made the decision to go online. So far, it has proved to be a great success! 
-You have been at the company for about a week, and your manager just announced your first project: to analyze the sales of the company in order to target new areas of growth. Your manager also sees this project as a means to test your skills.
-The IT department has given you access to the sales database. It's up to you to familiarize yourself with the data and analyze it.
-Data
-You have access to this dataset, directly extracted from the company's database. Here are the available files:
-•	Sales (called "Transactions").
-•	The list of customers.
-•	The list of products.
-Your tasks
-Task 1
-Before diving into the analysis, you'll need to clean your data by treating missing values and outliers.
-Task 2
-Now you can analyze your data. Your manager has given you a high degree of freedom on this task, so it’s is up to you to find the most relevant information. 
-To test your skills, your manager want you to use at least:
-•	Indicators of central tendency and dispersion.
-•	A concentration analysis, using a Lorenz curve and a Gini coefficient.
-•	Graphic representations, including at least one histogram, a representation with boxplots, and a time series graph (i.e a graph in which the abscissa axis represents dates).
-•	Bivariate analyses.
-Task 3
-Your manager has also asked a few more questions:
-•	Is there a correlation between gender and categories of products purchased?
-•	Is there a correlation between age and:
-o	The total amount of purchases?
-o	The purchase frequency (the number of purchases per month for example)?
-o	The average basket size (in number of items)?
-o	Categories of purchased products?
+There are three datasets available to perform this analysis: Transaction/Sales Data, Products data and Customer Data
+
+Task 1:
+Loaded the data and cleaned the data by treating missing values, bad data and outliers.
+
+Task 2:
+Performed Central Tendency and Disporsion: Central tendency (Mean, Median, Mode) and Dispersion Measures (Variance and Standard Deviation)
+Performed a concentration analysis (Lorenz curve and a Gini coefficient).
+Performed Graphic representations, including  histogram, boxplots, and a time series graph.
+Performed Bivariate analyses: Correlation analysis, Scatter plot, Regression
+
+Task 3:
+Checked if there is correlation between variables:
+gender and categories
+age and Categories
+age and the total amount of purchases 
+age and the purchase frequency (the number of purchases per month for example)
+age and the average basket size (in number of items)
+
+
+
+
+
+Git commands to push your change to the repo
+Navigate to your local repository on your computer using the command line. You can do this with the cd (change directory) command. For example:
+cd /path/to/your/repository
+
+Stage the file you want to push. This means adding the file to a list of files that you want to commit to the repository. Use the git add command followed by the name of the file:
+git add filename
+
+If you want to add all files in the directory, you can use . in place of filename.
+
+Commit the file. This saves a snapshot of the file in your local repository. Use the git commit command followed by a message describing what changes you made:
+git commit -m "Your message about the commit"
+
+Push the commit to the remote repository. This updates the remote repository with any commits made locally that aren’t already in the remote repo. Use the git push command:
+git push origin master
+
+Here, origin is the default name Git gives to the server where your repo is stored, and master is the branch you’re pushing to.
+
+Remember to replace /path/to/your/repository, filename, and "Your message about the commit" with your actual directory path, file name, and commit message. Also, make sure you have the necessary permissions to push to the repository. If the repository is not initialized yet, you might need to initialize it using git init command. If the remote is not set, you might need to add it using git remote add origin yourRemoteUrl. If you’re working on a different branch, replace master with your branch name.
 
