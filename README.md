@@ -20,7 +20,7 @@ age and the purchase frequency (the number of purchases per month for example)
 age and the average basket size (in number of items)
 
 
-
+---------------------------------------------------
 
 
 Git commands to push your change to the repo
