@@ -1,29 +1,5 @@
-Analyze the sales of the company in order to target new areas of growth
+How to start the script/Git commands to push your change to the repo:
 
-There are three datasets available to perform this analysis: Transaction/Sales Data, Products data and Customer Data
-
-Task 1:
-Loaded the data and cleaned the data by treating missing values, bad data and outliers.
-
-Task 2:
-Performed Central Tendency and Disporsion: Central tendency (Mean, Median, Mode) and Dispersion Measures (Variance and Standard Deviation)
-Performed a concentration analysis (Lorenz curve and a Gini coefficient).
-Performed Graphic representations, including  histogram, boxplots, and a time series graph.
-Performed Bivariate analyses: Correlation analysis, Scatter plot, Regression
-
-Task 3:
-Checked if there is correlation between variables:
-gender and categories
-age and Categories
-age and the total amount of purchases 
-age and the purchase frequency (the number of purchases per month for example)
-age and the average basket size (in number of items)
-
-
----------------------------------------------------
-
-
-Git commands to push your change to the repo
 Navigate to your local repository on your computer using the command line. You can do this with the cd (change directory) command. For example:
 cd /path/to/your/repository
 
